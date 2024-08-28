@@ -1,0 +1,81 @@
+@page {
+    size: 7in 8.5in;
+    margin: 10mm;
+
+    @bottom-center {
+        content: string(title);
+        vertical-align: top;
+    }
+}
+
+@page:left {
+    margin-left: 13mm;
+
+    @bottom-left {
+        content: counter(page);
+        vertical-align: top;
+    }
+}
+
+@page:right {
+    margin-right: 13mm;
+
+    @bottom-right {
+        content: counter(page);
+        vertical-align: top;
+    }
+}
+
+a.local::after {
+    display: inline-block;
+    content: " (p." target-counter(attr(href), page) ")";
+    text-decoration: none;
+}
+
+a.external::after {
+    display: inline-block;
+    content: " (" attr(href) ")";
+    text-decoration: none;
+}
+
+html,
+body,
+p,
+div,
+a,
+th,
+td,
+blockquote {
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 3mm;
+}
+
+h1 {
+    break-before: right;
+    margin-top: 40mm;
+    string-set: title content(text);
+}
+
+a {
+    color: inherit;
+}
+
+div.chapter > h1,
+div.chapter > h2,
+div.chapter > h3,
+div.chapter > h4,
+div.chapter > h5 {
+    break-after: avoid;
+}
+
+code,
+pre {
+    font-family: monospace;
+    font-size: 2.3mm;
+}
+
+[data-filename="license"] {
+    margin-top: 45rem;
+}
