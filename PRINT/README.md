@@ -9,6 +9,7 @@
 - A printer capable of printing 18x12 inch paper, colour
     - Consider outsourcing this to Walmart or someplace
 - Dental floss
+- [EB Garamond][garamond]
 
 **Instructions**
 
@@ -24,5 +25,6 @@
 
 [coptic]: https://www.wikihow.com/Coptic-Bind-a-Book
 [dufs]: https://github.com/sigoden/dufs
+[garamond]: https://fonts.google.com/specimen/EB+Garamond
 [impose]: https://www.reddit.com/r/bookbinding/1akbe1a
 [signature]: https://en.wikipedia.org/wiki/Section_(bookbinding)
