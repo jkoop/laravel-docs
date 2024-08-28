@@ -20,6 +20,7 @@
 1. *vague:* Impose[(?)][impose] the PDF into 12-sheet signatures[(?)][signature] on legal-size paper
 1. Print it. (print one signature first to check your settings)
 1. [Coptic bind the book][coptic] with the floss, but only the signatures. *vague:* don't bind to the cover
+1. Update the cover details. Include the commit hash, date, and your name where appropriate
 1. Print the cover onto heavy paper. Don't cut it out, yet
 1. @todo finish these instructions
 
